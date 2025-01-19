@@ -1,0 +1,4 @@
+cd src 
+javac controller/Controller.java models/FileReading.java models/SoccerTournament.java
+cd .. 
+java -cp src controller.Controller
